@@ -1,0 +1,147 @@
+@font-face {
+	font-family: 'Calisto';
+	src: url('../fonts/Calist.woff2') format('woff2'),
+		url('../fonts/CalistoMT.woff') format('woff'),
+		url('../fonts/Calist.eot') format('eot');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Marcellus';
+	src: url('../fonts/Marcellus-Regular.woff2') format('woff2'),
+		url('../fonts/CalMarcellus-Regular.woff') format('woff'),
+		url('../fonts/Marcellus-Regular.eot') format('eot');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'MarcellusSC';
+	src: url('../fonts/MarcellusSC-Regular.woff2') format('woff2'),
+		url('../fonts/CalMarcellusSC-Regular.woff') format('woff'),
+		url('../fonts/MarcellusSC-Regular.eot') format('eot');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+		url('../fonts/CalMyriadPro-Regular.woff') format('woff'),
+		url('../fonts/MyriadPro-Regular.eot') format('eot');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon/icomoon.eot?8jkp51');
+	src: url('../fonts/icomoon/icomoon.eot?8jkp51#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.ttf?8jkp51') format('truetype'),
+		url('../fonts/icomoon/icomoon.woff?8jkp51') format('woff'),
+		url('../fonts/icomoon/icomoon.svg?8jkp51#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+	content: "\f004";
+}
+
+.icon-star-o:before {
+	content: "\f006";
+}
+
+.icon-home:before {
+	content: "\f015";
+}
+
+.icon-image:before {
+	content: "\f03e";
+}
+
+.icon-photo:before {
+	content: "\f03e";
+}
+
+.icon-picture-o:before {
+	content: "\f03e";
+}
+
+.icon-pencil:before {
+	content: "\f040";
+}
+
+.icon-thumbs-o-up:before {
+	content: "\f087";
+}
+
+.icon-facebook:before {
+	content: "\f09a";
+}
+
+.icon-facebook-f:before {
+	content: "\f09a";
+}
+
+.icon-caret-left:before {
+	content: "\f0d9";
+}
+
+.icon-caret-right:before {
+	content: "\f0da";
+}
+
+.icon-angle-left:before {
+	content: "\f104";
+}
+
+.icon-angle-right:before {
+	content: "\f105";
+}
+
+.icon-angle-up:before {
+	content: "\f106";
+}
+
+.icon-angle-down:before {
+	content: "\f107";
+}
+
+.icon-desktop:before {
+	content: "\f108";
+}
+
+.icon-youtube-play:before {
+	content: "\f16a";
+}
+
+.icon-instagram:before {
+	content: "\f16d";
+}
+
+.icon-behance:before {
+	content: "\f1b4";
+}

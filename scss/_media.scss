@@ -1,0 +1,498 @@
+@media (max-width:1140px) {
+	.offices {
+		button.slick-prev.slick-arrow {
+			left: 20px;
+		}
+
+		button.slick-next.slick-arrow {
+			left: 60px;
+		}
+
+		.offices-slider__item-info {
+			min-height: 500px;
+		}
+
+		.offices-btn {
+			bottom: 40px;
+		}
+
+	}
+
+	.instagram-item {
+		max-width: 100%;
+		flex-basis: 48%;
+	}
+
+	.request {
+		&__btn {
+			display: inline-block;
+			margin-bottom: 20px;
+		}
+
+		&-row {
+			flex-direction: column;
+		}
+
+		&-info {
+			max-width: 100%;
+			padding: 0px 20px;
+
+			&__title {
+				font-size: 24px;
+				margin: 20px 0px;
+			}
+
+			&__text {
+				font-size: 16px;
+				line-height: 20px;
+				margin-bottom: 20px;
+			}
+		}
+
+		&-img {
+			width: 100vw;
+			height: 400px;
+		}
+	}
+
+	.about {
+		&-row {
+			flex-direction: column;
+			margin-top: 0px;
+
+			&:first-child {
+				margin-top: 0px;
+			}
+		}
+
+		&-info {
+			max-width: 100%;
+			padding: 0px 20px;
+
+			&__title {
+				font-size: 24px;
+				margin: 20px 0px 10px;
+			}
+
+			&__text,
+			&__link {
+				font-size: 16px;
+				line-height: 20px;
+				margin-bottom: 20px;
+			}
+		}
+
+		&-img {
+			width: 100vw;
+			height: 400px;
+		}
+
+		&-info--right {
+			order: -1;
+			margin: 0px 0px 0px 0px;
+		}
+	}
+
+	.title {
+		margin-bottom: 20px;
+	}
+
+	.advantages {
+		&__title {
+			margin-top: 30px;
+		}
+
+		&__subtitle {
+			margin-bottom: 20px;
+		}
+
+		&-item {
+			margin: 20px 0px 30px;
+			max-width: 100%;
+			flex-basis: 48%;
+		}
+	}
+
+	.achievements__inner {
+		margin: 80px 0px 50px;
+	}
+}
+
+@media (max-width:1024px) {
+	.footer-col {
+		max-width: 100%;
+		flex-basis: 48%;
+		padding: 20px 0px;
+	}
+
+	.footer__inner {
+		justify-content: space-around;
+	}
+
+	.footer-title {
+		margin-bottom: 20px;
+	}
+
+	.filter-controls__btn {
+		margin-right: 0px;
+		margin: 0px 10px;
+	}
+
+	.header-nav {
+		margin: 0px 30px;
+	}
+
+	.filter-item {
+		flex-basis: calc(50% - 30px);
+		height: 250px;
+	}
+
+	.achievements {
+		margin: 30px;
+
+		&__inner {
+			justify-content: space-around;
+			margin: 0px;
+		}
+
+		&-item {
+			flex-basis: 48%;
+			margin: 30px 0px;
+		}
+	}
+}
+
+@media (max-width:768px) {
+	.contacts__inner {
+		margin-top: 0px;
+	}
+
+	.instagram {
+		margin-top: 20px;
+
+		&__title {
+			margin-bottom: 20px;
+		}
+
+		&__title-img {
+			max-width: 220px;
+			height: 60px;
+		}
+
+		&-item {
+			height: 250px;
+		}
+	}
+
+	.fancybox-slide {
+		text-align: center;
+	}
+
+	.fancybox-content {
+		padding: 20px;
+	}
+
+	.fancybox-button.fancybox-close-small {
+		display: block;
+		color: #444;
+	}
+
+	.filter__btn {
+		margin: 10px auto 20px;
+	}
+
+	.concept {
+		margin-top: 20px;
+	}
+
+	.filter-controls__btn {
+		margin: 0px 5px;
+	}
+
+	.portfolio__title {
+		margin-top: 30px;
+	}
+
+	.filter-item {
+		flex-basis: 100%;
+		margin-left: 0px;
+		margin-bottom: 10px;
+	}
+
+	.filter-content {
+		margin-left: 0px;
+	}
+
+	.title {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+
+	.subtitle {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.advantages {
+		&-item:before {
+			font-size: 80px;
+		}
+
+		&-item__title {
+			margin-bottom: 10px;
+			font-size: 24px;
+		}
+
+		&-item__text {
+			line-height: 20px;
+		}
+
+		&-item {
+			margin: 0px 0px 30px;
+			padding-top: 100px;
+			flex-basis: 100%;
+		}
+	}
+
+	.menu,
+	.header-nav__social-menu,
+	.header-top {
+		display: none;
+	}
+
+	.logo-sm {
+		display: block;
+	}
+
+	.header-nav__language {
+		margin-left: 0px;
+	}
+
+	.header__inner {
+		padding-top: 0px;
+	}
+
+	.header-nav {
+		position: relative;
+		margin: 0px 10px;
+		padding: 20px 0px;
+	}
+
+
+	button.header-btn {
+		width: 44px;
+		height: 44px;
+		border: none;
+		outline: none;
+		background-color: transparent;
+	}
+
+	.header-btn span {
+		display: block;
+		background-color: $gold;
+		width: 100%;
+		height: 3px;
+		margin: 6px 0;
+		transition: .5s;
+	}
+
+	.header-btn.active {
+		background-color: transparent;
+
+		.top-line {
+			width: 44px;
+			transform: rotate(45deg) translate(7px, 7px);
+		}
+
+		.middle-line {
+			opacity: 0;
+		}
+
+		.bottom-line {
+			width: 44px;
+			transform: rotate(-45deg) translate(5px, -6px);
+		}
+	}
+
+	.header-nav__social-menu {
+		position: absolute;
+		z-index: 20;
+		bottom: -228px;
+		left: -10px;
+
+		.social-menu__list {
+			background-color: #000;
+			padding: 10px 0px 10px 10px;
+			width: 100vw;
+		}
+
+		.social-menu__item {
+			display: inline-block;
+		}
+	}
+
+	.menu {
+		width: 100vw;
+		position: absolute;
+		z-index: 20;
+		background-color: #000;
+		bottom: -188px;
+		left: -10px;
+
+		&__link {
+			padding: 15px 0px 15px 15px;
+			display: block;
+		}
+
+		&__item {
+			border-bottom: 1px solid $gold;
+			display: block;
+			margin-right: 0px;
+		}
+	}
+}
+
+@media (max-width:600px) {
+	.footer-col {
+		flex-basis: 100%;
+		padding: 10px 0px;
+		text-align: center;
+	}
+
+	.footer-list__item {
+		margin-bottom: 10px;
+	}
+
+	.contacts {
+
+		&__inner {
+			z-index: 10;
+			padding: 20px 0px 30px;
+		}
+
+		&__logo {
+			display: inline-block;
+		}
+
+		.logo__img--contacts {
+			max-width: 200px;
+			height: 30px;
+		}
+
+		&__title {
+			margin: 20px 0px 30px;
+			font-size: 24px;
+		}
+	}
+
+	.instagram-item {
+		height: 150px;
+		margin-bottom: 15px;
+	}
+
+	.modal {
+
+		&__form-input,
+		&__form-textarea {
+			width: 250px;
+		}
+
+		&__form-textarea {
+			height: 200px;
+			;
+		}
+
+		&__title {
+			padding-top: 10px;
+			font-size: 20px;
+		}
+
+		&__title--gradient {
+			font-size: 24px;
+			margin: 15px 0px;
+		}
+
+		&__subtitle {
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+
+		&__form-button {
+			margin: 0px;
+			width: 100%;
+		}
+	}
+
+	.filter-controls {
+		display: none;
+	}
+
+	.achievements {
+		&__title {
+			font-size: 22px;
+		}
+
+		&-item {
+			flex-basis: 100%;
+			margin: 20px 0px;
+
+			&__num {
+				width: 120px;
+				height: 120px;
+				margin: 0px auto 20px;
+
+				&:before {
+					width: 130px;
+					height: 130px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width:480px) {
+	.footer .footer-copy__link {
+		font-size: 10px;
+	}
+
+	.instagram-item {
+		flex-basis: 100%;
+	}
+
+	.emblem__img {
+		max-width: 140px;
+		height: 208px;
+		margin-bottom: 40px;
+	}
+
+	.logo__img--intro {
+		max-width: 250px;
+		height: 35px;
+	}
+
+	.concept {
+
+		&__label {
+			font-size: 24px;
+
+			&:after {
+				top: 15px;
+			}
+		}
+
+		&__text {
+			line-height: 20px;
+			font-size: 16px;
+			margin: 10px 0px 0px 0px;
+		}
+	}
+}
+
+@media (min-width:769px) {
+
+	.menu,
+	.header-nav__social-menu,
+	.header-top {
+		display: block !important;
+	}
+}
